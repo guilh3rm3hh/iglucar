@@ -152,7 +152,7 @@ export default function LandingPage() {
         }
         
         .animate-scroll {
-          animation: scroll 12s linear infinite;
+          animation: scroll 20s linear infinite;
         }
         
         /* Removed hover pause to keep infinite scroll on mouse hover and touch */
