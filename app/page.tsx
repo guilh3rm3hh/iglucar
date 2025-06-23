@@ -30,7 +30,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Image
@@ -63,7 +63,7 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-yellow-100 to-yellow-200 py-16">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-yellow-500 text-black px-4 py-2 rounded-full text-sm font-semibold inline-block mb-4">
@@ -102,7 +102,7 @@ export default function LandingPage() {
 
       {/* Marcas e Modelos Carrossel */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Marcas e Modelos que Atendemos</h2>
 
           <div className="relative overflow-hidden">
@@ -163,7 +163,7 @@ export default function LandingPage() {
 
       {/* Produtos */}
       <section className="py-16">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Nossos Produtos</h2>
             <p className="text-xl text-gray-600">Temos o Iglu-Car ideal para cada tipo de veículo</p>
@@ -445,7 +445,7 @@ export default function LandingPage() {
 
       {/* Atendimento */}
       <section className="py-16 bg-yellow-50">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Atendimento Unificado</h2>
 
           <div className="max-w-2xl mx-auto">
@@ -473,7 +473,7 @@ export default function LandingPage() {
 
       {/* CTA Final */}
       <section className="py-16 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black">
-        <div className="container mx-auto px-4 max-w-6xl text-center">
+        <div className="max-w-full mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">PROTEJA SEU VEÍCULO HOJE MESMO!</h2>
           <p className="text-xl mb-8">Não deixe seu carro sofrer com o clima</p>
           <Button
@@ -489,7 +489,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-full mx-auto px-4">
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Image
