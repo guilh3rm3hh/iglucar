@@ -478,7 +478,7 @@ export default function LandingPage() {
           <p className="text-xl mb-8">Não deixe seu carro sofrer com o clima</p>
           <Button
             size="lg"
-            className="bg-black hover:bg-gray-800 text-white px-12 py-4 text-xl font-bold"
+            className="bg-black hover:bg-gray-800 text-white px-6 py-4 text-xl font-bold max-w-full truncate"
             onClick={() => window.open(`https://wa.me/5561991241124?text=${whatsappMessage}`, "_blank")}
           >
             SOLICITAR ORÇAMENTO GRÁTIS
