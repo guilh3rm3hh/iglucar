@@ -152,7 +152,7 @@ export default function LandingPage() {
         }
         
         .animate-scroll {
-          animation: scroll 10s linear infinite;
+          animation: scroll 5s linear infinite;
         }
         
         .animate-scroll:hover {
