@@ -170,7 +170,7 @@ export default function LandingPage() {
           </div>
 
           <div className="flex justify-center">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl">
               {/* Carros de Passeio */}
               <Card className="hover:shadow-lg transition-shadow border-2 border-yellow-200">
                 <CardContent className="flex flex-col justify-center p-4 text-center">

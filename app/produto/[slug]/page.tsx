@@ -201,7 +201,7 @@ export default function ProdutoPage() {
       </header>
 
       <div className="container mx-auto px-4 py-8 max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Galeria de Imagens */}
           <div className="space-y-4">
             <div className="relative bg-white rounded-lg overflow-hidden shadow-lg">
