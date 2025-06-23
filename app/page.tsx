@@ -147,12 +147,12 @@ export default function LandingPage() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(-100%);
           }
         }
         
         .animate-scroll {
-          animation: scroll 6s linear infinite;
+          animation: scroll 12s linear infinite;
         }
         
         /* Removed hover pause to keep infinite scroll on mouse hover and touch */
